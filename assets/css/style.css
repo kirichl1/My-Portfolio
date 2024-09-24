@@ -1,0 +1,57 @@
+/*asterisk means everything*/
+* {
+    margin: 10;
+    padding: 10;
+}
+
+body {
+    /**/
+ 
+    
+    background-color: cornflowerblue;
+    color: red;
+    font-size: 25px;
+    font-family: "Young Serif", serif;
+    width: 50%;
+    margin: auto;
+
+h1 {
+color: aqua;
+font-size: 50px;
+font-family: "Source Serif 4", serif;
+font-weight: bold;
+ /*1em=36px*/
+ padding-top: 1em;
+ padding-bottom: .25em;
+ text-align: center
+ ;
+}
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    font-family: "Source Serif 4", serif;
+
+}
+
+a {
+    color:cyan;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    color:blueviolet;
+
+}
+
+a:visited {
+    color:black
+}
+
+ul, ol {
+    margin-left: 10px;
+}

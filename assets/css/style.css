@@ -8,15 +8,15 @@ body {
     /**/
  
     
-    background-color: cornflowerblue;
-    color: red;
+    background-color: #1d1d1d;
+    color: #FDFDFD;
     font-size: 25px;
     font-family: "Young Serif", serif;
     width: 50%;
     margin: auto;
 
 h1 {
-color: aqua;
+color: #fdfdfd;
 font-size: 50px;
 font-family: "Source Serif 4", serif;
 font-weight: bold;
@@ -35,11 +35,11 @@ p {
 
 }
 
-a {
-    color:cyan;
-    font-size: 16px;
+a:link {
+    color:#fdfdfd;
+    font-size: 20px;
     line-height: 150%;
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: none;
 }
 
@@ -49,7 +49,7 @@ a:hover {
 }
 
 a:visited {
-    color:black
+    color:#fdfdfd
 }
 
 ul, ol {
@@ -138,4 +138,17 @@ ul, ol {
 #article-3 {
     grid-column: 2 / span 2;
     grid-row: 2 / span 1;
+}
+
+/* laptop break point size */
+
+@media (max-width: 1726px) {
+    
+    main {
+        width: 60%
+    }
+
+    nav {
+        padding: 50px
+    }
 }

@@ -15,7 +15,7 @@ body {
     width: 80%;
     margin: auto;
 
-    ul.inline-block > li {display : inline-block ; }
+
 
 h1 {
 color: #fdfdfd;
@@ -28,6 +28,9 @@ font-weight: bold;
  text-align: center
  ;
 }
+
+
+
 }
 
 p {

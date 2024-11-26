@@ -12,8 +12,10 @@ body {
     color: #FDFDFD;
     font-size: 25px;
     font-family: "Young Serif", serif;
-    width: 50%;
+    width: 80%;
     margin: auto;
+
+    ul.inline-block > li {display : inline-block ; }
 
 h1 {
 color: #fdfdfd;

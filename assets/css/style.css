@@ -1,6 +1,7 @@
 /*asterisk means everything*/
 * {
-    margin: 10;
+    margin-left: 25px;
+    margin-right: 25px;
     padding: 10;
 }
 
@@ -8,7 +9,7 @@ header {
 
     .logo {
         display: block;
-        margin-top: 84px;
+        margin-top: 40px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 90px;
@@ -25,15 +26,32 @@ header {
 
 .homepagebutton {
     display: flex;
-    display: flex;
     justify-content: space-around;
     height: 28px;
     margin-left:30%;
     margin-right:30%;
+    margin-bottom: 50px;
     }
 
-.hpbuttontextstyle {
+.hpbutton {
     font-size: 20px;
+    color: #FDFDFD;
+    font-family: "Ysabeau Infant", serif;
+    background-color: transparent;
+    border: none;
+    margin: 5px;
+    
+}
+
+.hpbutton-here {
+    font-size: 20px;
+    color: white;
+    font-family: "Ysabeau Infant", serif;
+    font-weight: 700;
+    text-shadow: 0px 0px 10px #FDFDFD;
+    background-color: transparent;
+    border: none;
+    margin: 5px;
     
 }
 
@@ -43,6 +61,7 @@ header {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    gap: 10px;
 }
 
 .column-1, .column-2 {
@@ -73,7 +92,7 @@ body {
     background-color: #1d1d1d;
     color: #FDFDFD;
     font-size: 25px;
-    font-family: "Young Serif", serif;
+    font-family: "Ysabeau Infant", serif;
     width: 80%;
     margin: auto;
 
@@ -82,7 +101,7 @@ body {
 h1 {
 color: #fdfdfd;
 font-size: 50px;
-font-family: "Source Serif 4", serif;
+font-family: "Ysabeau Infant", serif;
 font-weight: bold;
  /*1em=36px*/
  padding-top: 1em;
@@ -91,14 +110,19 @@ font-weight: bold;
  ;
 }
 
-
-
 }
+
+.ysabeau-infant-text {
+    font-family: "Ysabeau Infant", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 p {
     color: white;
     font-size: 16px;
-    font-family: "Source Serif 4", serif;
+    font-family: "Ysabeau Infant", serif;
 
 }
 

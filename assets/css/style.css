@@ -67,6 +67,44 @@ header {
     .div6 { grid-area: 4 / 2 / 5 / 5; }
     .div7 { grid-area: 5 / 1 / 6 / 4; }
     .div8 { grid-area: 5 / 4 / 6 / 5; }
+
+/* gallery */
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:auto;
+    margin-left: auto;
+    /* gap: 10px; */
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 100%;
+    padding: 0px;
+}
+
+.flex-item {
+    flex: 1 1 calc(50% - 50px); /* Two columns */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.flex-item img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+
+
 /*buttons*/
 
 /* dropdown button start */
@@ -79,17 +117,20 @@ menu li {
   menu {
     padding:0;
 
+
   }
   
   #main-menu {
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin-bottom: 200px;
+    margin-bottom: 20%;
+
+
   }
   
   menu button {
-    font-size: 20px;
+font-size: 20px;
     color: #FDFDFD;
     font-family: "Ysabeau Infant", serif;
     background-color: transparent;
@@ -99,17 +140,22 @@ menu li {
   menu button:hover {
     text-shadow: 0px 0px 10px #FDFDFD;
     font-weight: 700;
-    font-size: 20px;
+
+
   }
 
   .dropdown {
-   margin: 0; 
+    margin: 0; 
     position: absolute;
     display: none;
+
+
   }
   
   .dropdown-trigger:hover .dropdown {
     display: block;
+
+
   }
  
 /* dropdown button end */
@@ -140,9 +186,26 @@ p {
 
 }
 
-p footer {
-    align-items: center;
-    font-style: italic;
+.divider {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin-top:90px;
+    margin-bottom: 90px;
+    width: 100%;
+}
+
+.divider img {
+    width: 100%;
+    height: auto;
+    max-width: 70%;
+    text-align: center;
+}
+
+footer {
+    max-width: fit-content;
+    margin-inline: auto;
+    align-content: center;
 }
 
 /*a:link {

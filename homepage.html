@@ -7,6 +7,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
     body {
@@ -18,14 +19,39 @@
 <article>
     <header>
 
-        <input type="image" src="assets/images/f7_sparkles.png" alt="unicorn in captivity" width="224px" height="224px" class="logo"/>
+        <input type="image" src="assets/images/f7_sparkles.png" alt="unicorn in captivity"  class="logo"/>
       
-        <div class="homepagebutton">
-            <button type="button" class="hpbutton">ABOUT</button>
-            <button type="button" class="hpbutton-here">WORK</button>
-            <button type="button" class="hpbutton">BLOG</button>
-            <button type="button" class="hpbutton">SHOP</button>
-          </div>
+        <menu id="main-menu">
+          <li>
+            <a href="">ABOUT</a>
+          </li>
+          
+          <li class="dropdown-trigger">
+            <!--   use buttons for dropdowns   -->
+            <button> WORK </button>
+            <menu class="dropdown">
+              <li>
+                 <a href=""> BOOKS</a>
+              </li>
+              <li>
+                <a href=""> FANART</a>
+             </li>
+             <li>
+              <a href=""> SKETCH</a>
+           </li>
+            </menu>
+          </li>
+            
+          <li>
+            <a href="" >BLOG</a>
+          </li>
+
+          <li>
+              <a href="">SHOP</a>
+            </li>
+
+
+        </menu>
 
           
     </header>
@@ -35,39 +61,79 @@
         <div class="parent">
             <div class="div1">
               <img src="assets/images/wolf.png">
-                  <p>Caption</p>
+              <p><b style="margin-left: 0px;">Name of Illustration</b><b style="margin-left: 5px; margin-right: 5px;">Name of Project</b> Date of Completion</p>
               </div>
               <div class="div2">  
-                <img src="https://placehold.co/508x508"> 
-                <p>Caption</p>
+                <img src="assets/images/landscape.png"> 
+                <p><b style="margin-left: 0px;">Name of Illustration</b><b style="margin-left: 5px; margin-right: 5px;">Name of Project</b> Date of Completion</p>
               
               </div>
             <div class="div3">  
-              <img src="https://placehold.co/508x508">
-                <p>Caption</p>
+              <img src="assets/images/stars.png">
+              <p><b style="margin-left: 0px;">Name of Illustration</b><b style="margin-left: 5px; margin-right: 5px;">Name of Project</b> Date of Completion</p>
               </div>
             <div class="div4">
-                <img src="https://placehold.co/1200x889">
-                <p>Caption</p>
+                <img src="assets/images/wizardstars.png">
+                <p><b style="margin-left: 0px;">Name of Illustration</b><b style="margin-left: 5px; margin-right: 5px;">Name of Project</b> Date of Completion</p>
               </div>
             <div class="div5"> 
-               <img src="https://placehold.co/407x445">
-                <p>Caption</p>
+               <img src="assets/images/dog.png">
+               <p><b style="margin-left: 0px;">Name of Illustration</b><b style="margin-left: 5px; margin-right: 5px;">Name of Project</b> Date of Completion</p>
               </div>
             <div class="div6"> 
-                 <img src="https://placehold.co/711x445">
-                <p>Caption</p>
+                 <img src="assets/images/mountains.png">
+                 <p><b style="margin-left: 0px;">Name of Illustration</b><b style="margin-left: 5px; margin-right: 5px;">Name of Project</b> Date of Completion</p>
               </div>
             <div class="div7"> 
-                 <img src="https://placehold.co/711x445">
-                <p>Caption</p>
+                 <img src="assets/images/oops.png">
+                 <p><b style="margin-left: 0px;">Name of Illustration</b><b style="margin-left: 5px; margin-right: 5px;">Name of Project</b> Date of Completion</p>
               </div>
             <div class="div8">
-              <img src="https://placehold.co/407x445">
-                <p>Caption</p>
+              <img src="assets/images/gryffin.png">
+              <p><b style="margin-left: 0px;">Name of Illustration</b><b style="margin-left: 5px; margin-right: 5px;">Name of Project</b> Date of Completion</p>
                   
                 </div>
             </div>
     </body>
+
+    <footer>
+
+      <menu id="main-menu" style="margin-top:180px;margin-bottom: 40px; font-weight: 100px; gap:50px;">
+        <li>
+          <a href="">SHOP POLICIES</a>
+        </li>
+
+        <li>
+          <a href="">FAQ</a>
+        </li>
+
+        <li>
+          <a href="">CONTACT</a>
+        </li>
+
+      </menu>
+
+        <menu id="main-menu" style="margin-top:20px;">
+          <li>
+            <a href=""><img src="assets/images/insta.png" alt="HTML tutorial"></a>
+          </li>
+  
+          <li>
+            <a href=""><img src="assets/images/twit.png" alt="HTML tutorial"></a>
+          </li>
+  
+          <li>
+            <a href=""><img src="assets/images/mail.png" alt="HTML tutorial"></a>
+          </li>
+
+          <li>
+            <a href=""><img src="assets/images/linkd.png" alt="HTML tutorial"></a>
+          </li>
+
+        </menu>
+
+        <p id="p footer">© Minoo Kirichenko - All rights reserved.</p>
+        
+    </footer>
 
   </html>
